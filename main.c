@@ -2,10 +2,12 @@
 
 int add(int a, int b);
 int sub(int a, int b);
+int mul(int a,int b);//new declaration
 
 int main() {
     int x = 10, y = 5;
     printf("Addition: %d\n", add(x,y));
     printf("Subtraction: %d\n", sub(x,y));
+	printf("Multiplication: %d\n", mul(x,y));  // new line
     return 0;
 }
