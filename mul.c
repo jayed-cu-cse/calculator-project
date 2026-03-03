@@ -1,3 +1,3 @@
 int mul(int a, int b) {
-    return a + b;//bug
+    return a * b;//fixed
 }
